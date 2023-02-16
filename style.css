@@ -1,0 +1,187 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+
+
+.contain{
+    width:80%;
+    margin: auto;
+}
+.tags{
+    color:white;
+    border-bottom: 1px solid;
+}
+.posts{
+    margin: 0 0 10px 0;
+    padding: 20px;
+    background-color:rgba(128, 128, 128, 0.501);
+    border: #ffbfa3 solid 3px;
+}
+.posts h3{
+    background-size: cover;
+    padding-top: 150px;
+}
+.box{
+    float: left;
+    width: 33.3% fit-content;
+    padding:5px;
+    margin: 0;
+
+}
+.box img{
+    width:100%;
+    padding: 0;
+    margin: 0;
+}
+.box h1{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color:#ffbfa3;
+}
+#active{
+    color: #ffbfa3;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+ul img{
+    width: 50%;
+    margin: auto;
+    display: block;
+}
+li{
+    display: inline;
+    padding: 5px;
+    margin: 5px;
+}
+
+
+
+/*images*/
+#batoprogram{
+    background-image: url(IMG/Screenshot\ \(8\).png);
+}
+#menudo{
+    background-image: url(img/menudo\ mechado\ chuhcu.jpg);
+}
+#tracing{
+    background-image: url(img/baguio.jpg);
+}
+#dolomite{
+    background-image: url(img/dolomite.jpg);
+}
+
+
+
+header{
+    min-height: 50px;
+    padding: 30px;
+    background-color: #38908F;
+    border-bottom: #B2EBED 3px solid;
+}
+header nav{
+    float: right;
+    padding-top: 20px;
+}
+#title{
+    padding-top:10px;
+    float: left;
+    color: white;
+}
+#title h1{
+    padding: 0;
+    margin: 0;
+}
+#title h4{
+    margin: 0;
+    padding: 0;
+    color:#B2EBED;
+}
+#banner h2{
+    margin: 0;
+    padding: 90px;
+    min-height:70px;
+    color: white;
+    background-image: url(img/mountain.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#feature{
+    float: left;
+    width: 55%;
+    background-color: #38908F;
+    padding:5px 5px;
+    margin: 0;
+    border-bottom: #B2EBED 3px solid;
+}
+#recents{
+    float: right;
+    width: 40%;
+    background-color: #B2EBED;
+    margin:0;
+    padding:5px;
+}
+#categories{
+    float: left;
+    width: 55%;
+    margin: 0;
+    padding:5px;
+    background-color: #B2EBED;
+}
+#main{
+    margin: 0;
+    padding: 5px;
+    background-color: #B2EBED;
+}
+#main p{
+    padding: 10px;
+    line-height: 1.5;
+}
+form input, textarea{
+    width: 100%;
+    display: block;
+    margin: 10px;
+    padding: 10px;
+}
+form button{
+    padding: 5px;
+    background-color: #38908F;
+}
+footer{
+    width: 100%;
+    float:left;
+    color: white;
+    padding: 30px 0 30px 0;
+    background-color: #38908F;
+}
+
+
+@media( max-width:600px ){
+
+
+    header, header nav, #title, #feature, #recents, #banner, #categories, footer, .box{
+        float: none;
+        width: auto;
+        text-align: center;
+    }
+    li{
+        padding: 3px;
+        margin: 0;
+    }
+
+
+}
